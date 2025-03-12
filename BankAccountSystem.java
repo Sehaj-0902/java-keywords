@@ -13,7 +13,7 @@ class BankAccount {
         totalAccounts++;
     }
 
-    // Method to display account details
+    // Method to display bank account details
     public void displayAccountDetails() {
         if (this instanceof BankAccount) {
             System.out.println("Bank Name: " + bankName);
