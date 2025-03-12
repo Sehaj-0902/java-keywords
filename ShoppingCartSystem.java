@@ -41,6 +41,7 @@ public class ShoppingCartSystem {
         product2.displayProductDetails();
 
         System.out.println("\nUpdated Product Details:");
+
         product1.updateDiscount(15.0);
         System.out.println("New Discount Updated!!");
         product1.displayProductDetails();
@@ -48,7 +49,6 @@ public class ShoppingCartSystem {
         product2.updateDiscount(20.0);
         System.out.println("New Discount Updated!!");
         product2.displayProductDetails();
-
     }
 }
 
